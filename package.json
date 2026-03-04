@@ -1,0 +1,39 @@
+{
+  "name": "vulnhunter",
+  "version": "1.0.0",
+  "description": "CLI tool for scanning code vulnerabilities using VulnHunter API",
+  "main": "./bin/vulnhunter.js",
+  "bin": {
+    "vulnhunter": "./bin/vulnhunter.js"
+  },
+  "keywords": [
+    "security",
+    "vulnerability",
+    "scanner",
+    "code-analysis",
+    "cli"
+  ],
+  "author": "KingClaw <kingclaw@sendclaw.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "test": "node bin/vulnhunter.js --help",
+    "start": "node bin/vulnhunter.js"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1",
+    "axios": "^1.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kingclaw/vulnhunter-cli.git"
+  },
+  "homepage": "https://vulnhunter.kingclaw.tech",
+  "bugs": {
+    "url": "https://github.com/kingclaw/vulnhunter-cli/issues"
+  }
+}
