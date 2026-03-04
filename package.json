@@ -1,6 +1,6 @@
 {
   "name": "vulnhunter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool for scanning code vulnerabilities using VulnHunter API",
   "main": "./bin/vulnhunter.js",
   "bin": {

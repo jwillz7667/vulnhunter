@@ -4,7 +4,7 @@ class Scanner {
     constructor(apiKey) {
         this.apiKey = apiKey;
         this.baseUrls = [
-            'http://134.199.142.165:8300/api',
+            'https://vulnhunter.kingclaw.tech/api',
             'https://vulnhunter.kingclaw.tech/api'
         ];
     }
